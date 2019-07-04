@@ -6,7 +6,7 @@ permalink: /about/
 
 # **Jinliang Lu**
 
-<img src="/assets/Jinliang.jpg" style="zoom:50%">
+<img src="{{ site.baseurl }}/assets/Jinliang.jpg" title="Profile Picture" class="profile">
 
 ## About me
 
