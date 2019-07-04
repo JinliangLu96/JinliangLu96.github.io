@@ -6,7 +6,7 @@ permalink: /about/
 
 # **Jinliang Lu**
 
-![Obviousyly, it's a PSed photo. I am not as handsome as it shows, haha.](/assets/Jinliang.jpg)
+<img src="/assets/Jinliang.jpg" style="zoom:50%">
 
 ## About me
 
