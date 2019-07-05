@@ -3,8 +3,7 @@ layout: page
 title: About Me
 permalink: /about/
 ---
-# **Jinliang Lu **
-# 陆金梁 #
+# ** Jinliang Lu - 陆金梁 **
 
 <img src="/assets/Jinliang.jpg" title="Profile Picture" class="profile">
 
