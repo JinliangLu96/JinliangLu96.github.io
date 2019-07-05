@@ -50,11 +50,11 @@ $$V^{\pi}(x)=r+{\gamma}V^{\pi}(x')$$
 
 算法的流程如下图所示。
 
-![dqn algorithm](/resources/dqn/DQN_algorithm.png)
+![dqn algorithm](https://github.com/JinliangLu96/JinliangLu96.github.io/blob/master/_posts/resources/dqn/DQN_algorithm.png)
 
 为了更好地说明算法的执行步骤，我做了一个gif图（以此减少我打字的数量，嘻嘻）。
 
-![dqn_gif](/resources/dqn/DQN_gif.gif)
+![dqn_gif](https://github.com/JinliangLu96/JinliangLu96.github.io/blob/master/_posts/resources/dqn/DQN_gif.gif)
 
 ### 重要公式 ###
 
