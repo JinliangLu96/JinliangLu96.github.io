@@ -5,10 +5,9 @@ date:   2019-07-05 08:43:59
 author: Jinliang Lu
 categories: Deep Learning Rein forceLearning
 ---
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
 
 &emsp;&emsp;组里每周一会举办一个学习研讨，说实话，这个研讨班吧，我基本上就没有听懂过（菜鸡的困扰总是巨大的）。这周一轮到我，师兄给我的题目是DQN（一开始看到消息，我的内心：？？？dqn是个啥，能吃吗 (´Д｀)y-~）。当然了，我之后还是调研学习了一下，之后就发现，师兄对我太好了，强化学习真难，其中的DQN应该是最好懂的了hhh。
-
-\frac{7x+5}{1+y^2}
 
 &emsp;&emsp;感觉DQN的话，其实就是主要解决Q-Learning里面空间连续、状态无穷的问题，也就是通过神经网络的方法来完成值函数近似。
 
