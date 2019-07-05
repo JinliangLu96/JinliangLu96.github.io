@@ -1,6 +1,11 @@
+---
+layout: page
+title: About Me
+permalink: /about/
+---
 # **Jinliang Lu**
 
-![Obviousyly, it's a PSed photo. I am not as handsome as it shows, haha.](/assets/Jinliang.jpg)
+<img src="{{ site.baseurl }}/assets/profile-placeholder.gif" title="Profile Picture" class="profile">
 
 ## About me
 
