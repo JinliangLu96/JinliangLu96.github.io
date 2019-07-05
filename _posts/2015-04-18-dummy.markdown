@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Deep Q Learning"
+title:  "Deep Q-Network算法"
 date:   2019-07-05 08:43:59
 author: Jinliang Lu
-categories: Deep Learning Rein forceLearning
+categories: 深度学习 强化学习
 ---
 
 <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
@@ -50,7 +50,7 @@ $$V^{\pi}(x)=r+{\gamma}V^{\pi}(x')$$
 
 算法的流程如下图所示。
 
-![dqn algorithm](https://github.com/JinliangLu96/JinliangLu96.github.io/blob/master/_posts/resources/dqn/DQN_algorithm.png)
+![dqn algorithm](/assets/dqn/DQN_algorithm.png)
 
 为了更好地说明算法的执行步骤，我做了一个gif图（以此减少我打字的数量，嘻嘻）。
 
