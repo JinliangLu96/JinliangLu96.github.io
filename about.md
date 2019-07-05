@@ -14,7 +14,7 @@ categories: Deep Learning Rein forceLearning
 
 ## 值函数近似的原理 ##
 
-&emsp;&emsp;简单描述一下值函数近似的基本思想，假设我们用$$V$$来表示值函数, $$\pi$$表示策略，$$\Theta$$表示用于逼近值函数的网络参数（就从值函数近似这一个广义的思路来说，逼近也可以采用别的方法，比如线性的函数啥的），$$x$$表示状态向量。那么，值函数的近似的问题损失就可以通过均方误差来衡量。
+&emsp;&emsp;简单描述一下值函数近似的基本思想，假设我们用$$V$$来表示值函数, $$\pi$$表示策略，$$\theta$$表示用于逼近值函数的网络参数（就从值函数近似这一个广义的思路来说，逼近也可以采用别的方法，比如线性的函数啥的），$$x$$表示状态向量。那么，值函数的近似的问题损失就可以通过均方误差来衡量。
 
 $$E_\theta=\mathbb{E}_{x\sim\pi}[(V^{\pi}(x)-V_\theta(x))^2]$$
 
@@ -23,10 +23,10 @@ $$E_\theta=\mathbb{E}_{x\sim\pi}[(V^{\pi}(x)-V_\theta(x))^2]$$
 
 &emsp;&emsp;通过梯度下降法，我们可以对误差求负导数，因为$$\theta$$是参数，所以可以直接拿到期望里面求导（但是对$$\pi$$求导就不可以这样做了）。
 
-\begin{align}
+$$\begin{align}
 \frac{\partial E_{\theta}}{partial \theta} & = \mathbb{E}_{x\sim\pi}[2(V^{\pi}(x)-V_\theta(x))\frac{partial V_{\theta}(x)}{partial \theta}]
 & = \mathbb{E}_{x\sim\pi}[2(V^{\pi}(x)-V_\theta(x))x]
-\end{align}
+\end{align}$$
 
 &emsp;&emsp;那么，参数$$\theta$$的更新公式就可以是
 
