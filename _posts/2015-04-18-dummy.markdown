@@ -23,10 +23,10 @@ $$E_\theta=\mathbb{E}_{x\sim\pi}[(V^{\pi}(x)-V_\theta(x))^2]$$
 
 &emsp;&emsp;通过梯度下降法，我们可以对误差求负导数，因为$$\theta$$是参数，所以可以直接拿到期望里面求导（但是对$$\pi$$求导就不可以这样做了）。
 
-\begin{align}
+$$\begin{align}
 \frac{\partial E_{\theta}}{partial \theta} & = \mathbb{E}_{x\sim\pi}[2(V^{\pi}(x)-V_\theta(x))\frac{partial V_{\theta}(x)}{partial \theta}]
 & = \mathbb{E}_{x\sim\pi}[2(V^{\pi}(x)-V_\theta(x))x]
-\end{align}
+\end{align}$$
 
 &emsp;&emsp;那么，参数$$\theta$$的更新公式就可以是
 
@@ -62,7 +62,7 @@ $$V^{\pi}(x)=r+{\gamma}V^{\pi}(x')$$
 
 $$Q(s,a)\leftarrow Q(s,a)+\alpha[r+{\gamma}Q(s',a')-Q(s,a)]$$
 
-Target Q$$=r+{\gamma}Q(s',a')$$
+$$Target Q=r+{\gamma}Q(s',a')$$
 
 $$L(\theta)=\mathbb{E}[Target Q-Q(s,a;\theta)]$$
 
