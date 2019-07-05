@@ -1,75 +1,30 @@
----
-layout: post
-title:  "Deep Q Learning"
-date:   2019-07-05 08:43:59
-author: Jinliang Lu
-categories: Deep Learning Rein forceLearning
----
+# **Jinliang Lu**
 
-<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
+![Obviousyly, it's a PSed photo. I am not as handsome as it shows, haha.](/assets/Jinliang.jpg)
 
-&emsp;&emsp;组里每周一会举办一个学习研讨，说实话，这个研讨班吧，我基本上就没有听懂过（菜鸡的困扰总是巨大的）。这周一轮到我，师兄给我的题目是DQN（一开始看到消息，我的内心：？？？dqn是个啥，能吃吗 (´Д｀)y-~）。当然了，我之后还是调研学习了一下，之后就发现，师兄对我太好了，强化学习真难，其中的DQN应该是最好懂的了hhh。
+## About me
 
-&emsp;&emsp;感觉DQN的话，其实就是主要解决Q-Learning里面空间连续、状态无穷的问题，也就是通过神经网络的方法来完成值函数近似。
+I am a fourth-year undergraduate in the College of Computer Science and Technology at Beijing Jiaotong University. In the coming September, I will join the Institute of Automation, Chinese Academy of Science as a master. My advisor now is [Prof. Jiajun Zhang](http://www.nlpr.ia.ac.cn/cip/jjzhang.htm). The research group I am in is [Chinese Information Processing Group (CIP)](http://www.nlpr.ia.ac.cn/cip/introduction.htm).
 
-## 值函数近似的原理 ##
+My research interests lie within the intersection of Natural Language Processing, Deep Learning, Machine Translation and Multilingual Text Analysis. However, I am still flown, haha( embarrassed ).
 
-&emsp;&emsp;简单描述一下值函数近似的基本思想，假设我们用$$V$$来表示值函数, $$\pi$$表示策略，$$\theta$$表示用于逼近值函数的网络参数（就从值函数近似这一个广义的思路来说，逼近也可以采用别的方法，比如线性的函数啥的），$$x$$表示状态向量。那么，值函数的近似的问题损失就可以通过均方误差来衡量。
+## Publications
 
-$$E_\theta=\mathbb{E}_{x\sim\pi}[(V^{\pi}(x)-V_\theta(x))^2]$$
+张东雷,  林友芳, 万怀宇(*), 马语丹, 陆金梁. 在线技术社区的用户技能与兴趣发现. 第六届全国社会媒体处理大会(SMP 2017). 中文信息学报. 2018, 32(7), 116-127.
 
+## Projects
 
-&emsp;&emsp;其中，$$\mathbb{E}_{x\sim\pi}$$表示的是策略$$\pi$$采样得到的状态上的期望。
+### QE - Reading List
 
-&emsp;&emsp;通过梯度下降法，我们可以对误差求负导数，因为$$\theta$$是参数，所以可以直接拿到期望里面求导（但是对$$\pi$$求导就不可以这样做了）。
+**[Link]** https://github.com/JinliangLu96/QE-Readinglist
 
-&emsp;&emsp;那么，参数$$\theta$$的更新公式就可以是
+**[Description]** A few month ago, I sort out a few papers about Quality Estimation in Machine Translation. However, I am not a diligent man. Therefore, the reading list may not as cutting-edge as you expect. I will update it when I am free.
 
-$$\theta=\theta+\alpha(V^{\pi}(x)-V_\theta(x))x$$
+**[To be Continued]** I will upload my work about evaluation of Machine Translation in a few days later.
 
-&emsp;&emsp;在训练的过程中，我们并不知道真实的值函数$$V^{\pi}(x)-V$$，但是DQN中的神经网络就是为了估计值函数而设定的，因此，借助TD（时序分差）学习
+## Experiences
+**National Laboratory of Pattern Recognition, Chinese Information Processing Group**
 
-$$V^{\pi}(x)=r+\gammaV^{\pi}(x^')$$
+*As intern student. Oct. 2018 - Present*
 
-&emsp;&emsp;基于上述公式，我们可以用当前的估计值函数代替真实值函数。其中，$$x$$代表当前状态，$$x^'$$达标下一个可能的状态。
-
-## Deep Q-Network ##
-
-&emsp;&emsp;其实dqn的思想就是值函数近似的思想，创新点在于值函数近似采用了神经网络的方法。其中论文有两个，简单列在这里，大家想要更多了解的话，可以看论文，括号里面是链接。
-1. Playing Atari with Deep Reinforcement Learning.
-[(Arxiv, 2013)](https://arxiv.org/abs/1312.5602)
-2. Human-level control through deep reinforcement learning. 
-[(Nature, 2015)](http://web.stanford.edu/class/psych209/Readings/MnihEtAlHassibis15NatureControlDeepRL.pdf)
-
-### 算法流程 ###
-
-算法的流程如下图所示。
-
-![dqn algorithm](/resources/dqn/DQN_algorithm.png)
-
-为了更好地说明算法的执行步骤，我做了一个gif图（以此减少我打字的数量，嘻嘻）。
-
-![dqn_gif](/resources/dqn/DQN_gif.gif)
-
-### 重要公式 ###
-
-&emsp;&emsp;核心公式就是Q-Learning中Q值函数的更新公式以及值函数近似里面的均方误差。
-
-$$Q(s,a)\leftarrow Q(s,a)+\alpha[r+\gammaQ(s',a')-Q(s,a)]$$
-
-Target Q$$=r+\gammaQ(s',a')$$
-
-$$L(\theta)=\mathbb{E}[Target Q-Q(s,a;\theta)]$$
-
-### 模型设计 ###
-
-&emsp;&emsp;其中，Q值函数由网络产生，这就会产生一个比较明显的问题，$$TargetQ$$和$$Q(s,a;\theta)$$都由网络产生，都在不停地发生变化，这就很难让模型收敛。因此在实际操作过程中，往往使用两个相同的网络分别估计Target Q和$$Q(s,a;\theta)$$，分别称为Target Q网络和Main Q网络。其中，Target Q网络的参数相对靠前，Main Q网络的参数实时更新，过一定时间，将Main Q网络的参数拷贝到Target Q网络中，以此保证Target Q数值和实际Q数值不一样，从而使得网络收敛相对稳定一些，在一定程度上缓解不好训练的问题（虽然有一点杯水车薪的意思在）。
-
-### 采样策略 ###
-
-&emsp;&emsp;算法之中采集需要完成的动作$$a_t$$时，使用了$$\epsilon-Greedy$$的策略。说白了就是随机一个数，如果这个数小于$$\epsilon$$，就随机从所有可用的动作$$a_t$$组成的集合中取一个出来；如果这个数大于$$\epsilon$$，那么就采取贪心策略，采样一个使Q值最大得$$a_t$$做状态转换。如果仅仅采用贪心策略，无法采集到先前未采样过得$$a_t$$，这样在一定程度上就“丧失了探索的能力”。因此，使用$$\epsilon-Greedy$$策略，一方面做探索，另一方面最大化奖励，是一种折中的策略。
-
-
-#### 参考资料 ####
-1. Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Alex Graves, Ioannis Antonoglou, Daan Wierstra, Martin Riedmiller. Playing Atari with Deep Reinforcement Learning. *arXiv:1312.5602*
-2. David Silver的课程：www0.cs.ucl.ac.uk/staff/D.Silver/web/Teaching.html
+* under the guidence of Prof. Jiajun Zhang
