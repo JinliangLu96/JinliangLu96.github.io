@@ -21,7 +21,7 @@ My research interests lie within the intersection of Natural Language Processing
 
 ### QE - Reading List
 
-**[Link]** https://github.com/JinliangLu96/QE-Readinglist
+**[Link]** [https://github.com/JinliangLu96/QE-Readinglist](https://github.com/JinliangLu96/QE-Readinglist)
 
 **[Description]** A few month ago, I sort out a few papers about Quality Estimation in Machine Translation. However, I am not a diligent man. Therefore, the reading list may not as cutting-edge as you expect. I will update it when I am free.
 
