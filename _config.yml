@@ -77,60 +77,11 @@ social:
     desc: Follow me on Weibo
     share: true
 
-  - name: WeChat
-    icon: wechat
-    username: Arc-UBW
-    url:
-    desc: Friend me on WeChat
-    share: false
-
   - name: GitHub
     icon: github
     username: JinliangLu96
     url: https://github.com/JinliangLu96
     desc: Fork me on GitHub
-    share: false
-
-  - name: Steam
-    icon: steam
-    username:
-    url:
-    desc: Friend me on Steam
-    share: false
-
-  - name: Dribbble
-    icon: dribbble
-    username:
-    url:
-    desc: Follow me on Dribble
-    share: false
-
-  - name: Vimeo
-    icon: vimeo-square
-    username:
-    url:
-    desc: Follow me on Vimeo
-    share: false
-
-  - name: Vine
-    icon: vine
-    username:
-    url:
-    desc: Follow me on Vine
-    share: false
-
-  - name: Reddit
-    icon: reddit
-    username:
-    url:
-    desc: Share to Reddit
-    share: true
-
-  - name: "Hacker News"
-    icon: hacker-news
-    username:
-    url:
-    desc: Share to Hacker News
     share: false
 
 # Social sharing protocols
