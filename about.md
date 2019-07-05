@@ -10,9 +10,9 @@ permalink: /about/
 
 ## About me
 
-I am a fourth-year undergraduate in the College of Computer Science and Technology at Beijing Jiaotong University. In the coming September, I will join the Institute of Automation, Chinese Academy of Science as a master. My advisor now is [Prof. Jiajun Zhang](http://www.nlpr.ia.ac.cn/cip/jjzhang.htm). The research group I am in is [Chinese Information Processing Group (CIP)]((http://www.nlpr.ia.ac.cn/cip/introduction.htm)).
+I am a fourth-year undergraduate in the College of Computer Science and Technology at Beijing Jiaotong University. In the coming September, I will join the Institute of Automation, Chinese Academy of Science as a master. My advisor now is [Prof. Jiajun Zhang](http://www.nlpr.ia.ac.cn/cip/jjzhang.htm). The research group I am in is [Chinese Information Processing Group (CIP)](http://www.nlpr.ia.ac.cn/cip/introduction.htm).
 
-My research interests lie within the intersection of Natural Language Processing, Deep Learning, Machine Translation and Multilingual Text Analysis. However, I am still flown, haha( embarrassed ).
+My research interests lie within the intersection of Natural Language Processing, Deep Learning, Machine Translation and Multilingual Text Analysis. However, I am still flown, haha.
 
 ## Publications
 
