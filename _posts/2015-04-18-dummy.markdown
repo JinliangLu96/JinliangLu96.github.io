@@ -54,7 +54,7 @@ $$V^{\pi}(x)=r+{\gamma}V^{\pi}(x')$$
 
 为了更好地说明算法的执行步骤，我做了一个gif图（以此减少我打字的数量，嘻嘻）。
 
-![dqn_gif](https://github.com/JinliangLu96/JinliangLu96.github.io/blob/master/_posts/resources/dqn/DQN_gif.gif)
+![dqn_gif](/assets/dqn/DQN_gif.gif)
 
 ### 重要公式 ###
 
