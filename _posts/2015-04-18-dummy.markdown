@@ -34,9 +34,9 @@ $$\theta=\theta+\alpha(V^{\pi}(x)-V_\theta(x))x$$
 
 &emsp;&emsp;在训练的过程中，我们并不知道真实的值函数$$V^{\pi}(x)-V$$，但是DQN中的神经网络就是为了估计值函数而设定的，因此，借助TD（时序分差）学习
 
-$$V^{\pi}(x)=r+\gammaV^{\pi}(x^')$$
+$$V^{\pi}(x)=r+{\gamma}V^{\pi}(x')$$
 
-&emsp;&emsp;基于上述公式，我们可以用当前的估计值函数代替真实值函数。其中，$$x$$代表当前状态，$$x^'$$达标下一个可能的状态。
+&emsp;&emsp;基于上述公式，我们可以用当前的估计值函数代替真实值函数。其中，$$x$$代表当前状态，$$x'$$达标下一个可能的状态。
 
 ## Deep Q-Network ##
 
@@ -60,9 +60,9 @@ $$V^{\pi}(x)=r+\gammaV^{\pi}(x^')$$
 
 &emsp;&emsp;核心公式就是Q-Learning中Q值函数的更新公式以及值函数近似里面的均方误差。
 
-$$Q(s,a)\leftarrow Q(s,a)+\alpha[r+\gammaQ(s',a')-Q(s,a)]$$
+$$Q(s,a)\leftarrow Q(s,a)+\alpha[r+{\gamma}Q(s',a')-Q(s,a)]$$
 
-Target Q$$=r+\gammaQ(s',a')$$
+Target Q$$=r+{\gamma}Q(s',a')$$
 
 $$L(\theta)=\mathbb{E}[Target Q-Q(s,a;\theta)]$$
 
