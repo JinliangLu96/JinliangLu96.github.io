@@ -19,7 +19,7 @@ categories: Deep Learning Rein forceLearning
 $$E_\theta=\mathbb{E}_{x\sim\pi}[(V^{\pi}(x)-V_\theta(x))^2]$$
 
 
-&emsp;&emsp;其中，$$mathbb{E}_{x\sim\pi}$$表示的是策略$$\pi$$采样得到的状态上的期望。
+&emsp;&emsp;其中，$$\mathbb{E}_{x\sim\pi}$$表示的是策略$$\pi$$采样得到的状态上的期望。
 
 &emsp;&emsp;通过梯度下降法，我们可以对误差求负导数，因为$$\theta$$是参数，所以可以直接拿到期望里面求导（但是对$$\pi$$求导就不可以这样做了）。
 
