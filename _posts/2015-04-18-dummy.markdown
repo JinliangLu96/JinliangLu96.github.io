@@ -17,5 +17,5 @@ categories: Deep Learning Rein forceLearning
 $$E_\theta=\mathbb{E}_{x\sim\pi}[(V^{\pi}-V_\theta(x))^2]$$
 
 
-其中，$$mathbb{E}_{x\sim\pi}$$表示的是策略$$\pi$$采样得到的状态上的期望
+其中，$mathbb{E}_{x\sim\pi}$表示的是策略$$\pi$$采样得到的状态上的期望
 
