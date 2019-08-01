@@ -15,9 +15,9 @@ My research interests lie within the intersection of Natural Language Processing
 
 ## Publications
 
-Jinliang Lu and Jiajun Zhang. Select Best Translation from Different Systems without Reference. *To Appear in NLPCC 2019*. 
+Jinliang Lu and Jiajun Zhang. **Select Best Translation from Different Systems without Reference**. *To Appear in NLPCC 2019*. 
 
-张东雷,  林友芳, 万怀宇(*), 马语丹, 陆金梁. 在线技术社区的用户技能与兴趣发现. 第六届全国社会媒体处理大会(*SMP 2017*). 中文信息学报. 2018, 32(7), 116-127.
+张东雷,  林友芳, 万怀宇, 马语丹, 陆金梁. **在线技术社区的用户技能与兴趣发现**. *第六届全国社会媒体处理大会(SMP 2017)*. 中文信息学报. 2018, 32(7), 116-127.
 
 ## Projects
 
