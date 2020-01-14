@@ -17,8 +17,8 @@ My research interests lie within the intersection of Natural Language Processing
 
 ### 2019
 
-1. Jinliang Lu and Jiajun Zhang. **Select Best Translation from Different Systems without Reference**. *To Appear in NLPCC 2019*. 
-2. Jinliang Lu and Jiajun Zhang. **基于多语言预训练语言模型的译文质量估计方法**. (**Best Paper Award**) *To Appear in CCMT 2019*
+1. Jinliang Lu and Jiajun Zhang. [**Select Best Translation from Different Systems without Reference**](http://tcci.ccf.org.cn/conference/2019/papers/229.pdf). *NLPCC 2019*. 
+2. Jinliang Lu and Jiajun Zhang. **基于多语言预训练语言模型的译文质量估计方法**. (**Best Paper Award**) *CCMT 2019 现已被《厦门大学学报接收》*
 
 ### 2018
 1. 张东雷,  林友芳, 万怀宇, 马语丹, 陆金梁. **在线技术社区的用户技能与兴趣发现**. *第六届全国社会媒体处理大会(SMP 2017)*. 中文信息学报. 2018, 32(7), 116-127.
