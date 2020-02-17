@@ -1,5 +1,6 @@
 ---
 layout: post
+title:  "矩阵论第一讲笔记"
 date:   2019-07-05 08:43:59
 author: Jinliang Lu
 categories: 矩阵论
