@@ -1,3 +1,12 @@
+---
+layout: post
+date:   2019-07-05 08:43:59
+author: Jinliang Lu
+categories: 矩阵论
+---
+
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
+
 # 矩阵论
 ## 第一章 线性空间与线性变换
 ### 1.1 线性空间
