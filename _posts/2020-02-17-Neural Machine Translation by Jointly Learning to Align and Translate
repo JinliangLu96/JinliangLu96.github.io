@@ -1,0 +1,83 @@
+---
+layout: post
+title:  "论文阅读 - Neural Machine Translation by Jointly Learning to Align and Translate"
+date:   2020-02-17 19:35:59
+author: Jinliang Lu
+categories: 文献阅读
+---
+
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
+
+# Neural Machine Translation by Jointly Learning to Align and Translate
+
+
+本文主要介绍了Attention机制在NMT中的应用，是NMT工作中具有重要影响的工作之一。
+
+## Brief Introduction
+
+Attention机制现如今在NLP的多项任务中都取得了突出的效果。在最开始的NMT任务中，Attention机制的动机则是希望将对齐和翻译共同学习，以获取更好的翻译结果。
+
+## Motivation
+
+* NMT任务中传统的encoder-decoder网络中，起到传递作用的context vector一般是RNN的最后一个状态向量或者所有状态向量的平均，在解码阶段，对于任意一个待解码token而言context vector都一样，这往往导致随着句子长度的增加，翻译效果显著降低；
+* 尽管我们认为RNN的最后一个状态包含了整个句子的全部信息，然而事实上其对于长距离依赖的遗忘仍然较为显著，如果可以将SMT中对齐的思想融入进来，context vector随着即将解码的token位置的变化而变化，那么产生的翻译结果应当更好。
+
+## Model Description
+接下来，我们简单介绍模型。模型的基础框架仍然基于RNN，主要进行了如下两点改进：
+
+* 将**单向RNN**替换成**双向RNN**，第t个位置的token对应正向隐层状态包含了前t个token的信息，反向隐层状态包含了后t个token的信息；
+* context vector采用**加权求和**的方式，针对不同的解码位置计算不同的context vector，再在decoder端与前一个时间步的输出token向量进行拼接，预测当前时间步的token。
+
+模型结构如下图1所示。
+<center>
+<img src="model.png" width = 50% height = 40% /> 
+
+Figure 1. The Architecture of RNN-based NMT Model with Attention.
+</center>
+
+具体用数学公式的形式可以描述如下：
+* 在解码端，每一个时间步的token的预测可以看作是条件概率： $$p(y_i|y_1,y_2,...,y_i-1, \bm{x}) = g(y_{i-1}, s_i, c_i)$$ 其中，$$s_i=f(s_{i-1}, y_{i-1}, c_i)$$
+
+* context vector的计算方法如下：$$c_i=\sum_{j=1}^{T_x} \alpha_{ij}h_j$$ 其中 $$\alpha_{ij} = \frac{exp(e_{ij})}{\sum_k^{T_x} exp(e_{ik})}$$ $e_{ij}$是MT句子中第i-1个解码位置的状态向量与原文第j个状态向量的能量数值，该数值的计算较为自由，可以点积，也可以使用神经网络计算，我们将其定义为函数$a$，公式表述如下：$$e_{ij} = a(s_{i-1}, h_{j})$$ $$h_{j} = \left[\overrightarrow{h_{j}^{T}};\overleftarrow{h_{j}^{T}}\right]^{T}$$
+
+## Experiment
+
+* **Dateset**
+数据集使用的是[WMT 14 TRANSLATION TASK](http://www.statmt.org/wmt14/translation-task.html) 中English-French的平行语料，经过数据处理共348M的word。作者使用WMT 12和WMT 13的news-test作为验证集，WMT 14的news-test作为测试集。
+每个语言按照词频保留30000个词汇，其余词汇使用[UNK]代替。
+
+* **Models**
+对比模型主要对比RNN-based Encoder-Decoder(RNNencdec)和本文模型RNNsearch，使用SGD进行梯度下降训练，batch大小为80个句子，训练约5天。
+
+## Result
+* **Quantitative Results**
+如图2所示，是在测试集上的实验结果，可以发现RNNsearch取得的实验效果最好，与当时最佳的基于短语的SMT模型Moses非常接近。文中提到Moses使用了单语信息，因此RNNsearch已经在MT领域取得了明显的进步。后续的事实证明，随着注意力机制和Transformer等后续技术的出现，NMT取得了长足的进步并影响了NLP的其他领域。
+<center>
+<img src="result.png" width = 100% height = 40% /> 
+
+Figure 2. The Result of Experiment on Test Dataset.
+</center>
+
+* **Quantitative Analysis**
+    * **Alignment**
+    本文的出发点是希望在学习翻译的同时，学习词对齐。因此，模型是否学习到词对齐的能力是需要验证的。作者将注意力可视化出来，得到图3。可以看出来，模型可以学习到词汇的对齐关系，只是这种对齐是软对齐，而非fast-align等工具学习到的硬对齐。
+    <center>
+    <img src="attention.png" width = 100% height = 40% /> 
+    
+    Figure 3. Attention Visualization of RNNsearch.
+    </center>
+
+    * **Sentence Length**
+    Motivation中我们介绍了两个出发点，第二个主要的出发点就是句子长度的问题，RNN based Encoder-Decoder的NMT模型会显著受到句子长度的影响（RNN的长距离依赖难以捕捉和记忆丢失问题），句子越长效果越差。本文中context vector随着解码位置的不同而变化，改善了只使用RNN最后一个状态带来的问题。作者通过计算BLEU分数进行分析，如图4所示。可以看出，RNNSearch对于长句子解码也能有不错的效果。
+    <center>
+    <img src="length.png" width = 100% height = 40% /> 
+    
+    Figure 4. The improvement for long sentence of RNNsearch.
+    </center>
+
+## Conclusion
+我们在本文中简要介绍了RNN的Attention机制以及其在NMT中的应用，本篇工作是NMT中具有里程碑性质的经典工作，值得细细研读，如有兴趣，欢迎点击Reference中的文章PDF链接。
+
+### Reference
+1. [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/pdf/1409.0473.pdf)
+2. [Learning phrase representations using RNN encoder-decoder for statistical machine translation](https://arxiv.org/pdf/1406.1078.pdf)
