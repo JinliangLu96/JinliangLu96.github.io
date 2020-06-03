@@ -9,16 +9,16 @@ permalink: /about/
 
 ## About me
 
-I am a fourth-year undergraduate in the College of Computer Science and Technology at Beijing Jiaotong University. In the coming September, I will join the Institute of Automation, Chinese Academy of Science as a master. My advisor now is [Prof. Jiajun Zhang](http://www.nlpr.ia.ac.cn/cip/jjzhang.htm). The research group I am in is [Chinese Information Processing Group (CIP)](http://www.nlpr.ia.ac.cn/cip/introduction.htm).
+I am a one-year master in the Institute of Automation, Chinese Academy of Science, Complete my bachelor's degree in the college of computer science and technology at Beijing Jiaotong University. My advisor now is [Prof. Jiajun Zhang](http://www.nlpr.ia.ac.cn/cip/jjzhang.htm). The research group I am in is [Chinese Information Processing Group (CIP)](http://www.nlpr.ia.ac.cn/cip/introduction.htm).
 
-My research interests lie within the intersection of Natural Language Processing, Deep Learning, Machine Translation and Multilingual Text Analysis. However, I am still flown, haha( embarrassed ).
+My research interests lie within the intersection of Natural Language Processing, Deep Learning, Machine Translation and Multilingual Text Analysis.
 
 ## Publications
 
 ### 2019
 
 1. Jinliang Lu and Jiajun Zhang. [**Select Best Translation from Different Systems without Reference**](http://tcci.ccf.org.cn/conference/2019/papers/229.pdf). *NLPCC 2019*. 
-2. Jinliang Lu and Jiajun Zhang. **基于多语言预训练语言模型的译文质量估计方法**. (**Best Paper Award**) *CCMT 2019 现已被《厦门大学学报》接收*
+2. Jinliang Lu and Jiajun Zhang. **基于多语言预训练语言模型的译文质量估计方法**. (**Best Paper Award in CCMT 2019**) 厦门大学学报 (自然科学版), 2020 (2): 3.
 
 ### 2018
 1. 张东雷,  林友芳, 万怀宇, 马语丹, 陆金梁. **在线技术社区的用户技能与兴趣发现**. *第六届全国社会媒体处理大会(SMP 2017)*. 中文信息学报. 2018, 32(7), 116-127.
@@ -36,6 +36,6 @@ My research interests lie within the intersection of Natural Language Processing
 ## Experiences
 **National Laboratory of Pattern Recognition, Chinese Information Processing Group**
 
-*As intern student. Oct. 2018 - Present*
+*As intern student. Oct. 2018 - July. 2019*
 
 * under the guidence of Prof. Jiajun Zhang
