@@ -13,7 +13,8 @@ permalink: /about/
       <br>National Laboratory of Pattern Recognition,
       <br>Institute of Automation, Chinese Academy of Sciences, Beijing, China</p>
       <p><b></b></p>
-      <p><b>Email: lujinliang2019[at]ia.ac.cn</b></p>
+      <p><br><b>Email: lujinliang2019[at]ia.ac.cn</b>
+         <br>Floor 7, Institute of Automation, Chinese Academy of Sciences, 95 Zhongguancun East Road, Haidian District, Beijing</p>
     </td>
     <td width="25%">
       <img src="/assets/Jinliang.jpg" width="100%">
