@@ -28,9 +28,6 @@ permalink: /about/
 
 Hi, I am a master student in the [**Institute of Automation, Chinese Academy of Sciences**](http://www.ia.cas.cn). I receive my bachelor degree at the college of computer science and technology at Beijing Jiaotong University. Now, I am advised by [Prof. Jiajun Zhang](http://www.nlpr.ia.ac.cn/cip/jjzhang.htm) and  affiliated in [**Chinese Information Processing Group (CIP)**](http://www.nlpr.ia.ac.cn/cip/introduction.htm).
 
-<table border="0">
-</table>
-
 ## Publications
 
 ### 2019
@@ -40,9 +37,6 @@ Hi, I am a master student in the [**Institute of Automation, Chinese Academy of 
 
 ### 2018
 1. 张东雷,  林友芳, 万怀宇, 马语丹, 陆金梁. **在线技术社区的用户技能与兴趣发现**. *第六届全国社会媒体处理大会(SMP 2017)*. 中文信息学报. 2018, 32(7), 116-127.
-
-<table border="0">
-</table>
 
 ## Projects
 
@@ -58,10 +52,7 @@ Hi, I am a master student in the [**Institute of Automation, Chinese Academy of 
 
 **[Link]** [https://github.com/JinliangLu96/SOTA-MT](https://github.com/JinliangLu96/SOTA-MT)
 
-**[To be Continued]**
-
-<table border="0">
-</table>
+**[To be Continued ... ]**
 
 ## Experiences
 **Chinese Information Processing Group(CIP), National Laboratory of Pattern Recognition**
