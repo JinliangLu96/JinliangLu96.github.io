@@ -9,9 +9,9 @@ permalink: /about/
   <tr>
     <td width="65%">
       <p><br><b>Master Student</b>
-      <br><a herf="http://www.nlpr.ia.ac.cn/cip/introduction.htm">Research Group of Natural Language Processing,</a>
-      <br>National Laboratory of Pattern Recognition,
-      <br>Institute of Automation, Chinese Academy of Sciences, Beijing, China</p>
+      <br><a href="http://www.nlpr.ia.ac.cn/cip/introduction.htm">Research Group of Natural Language Processing,</a>
+      <br><a href="http://www.nlpr.ia.ac.cn/cn/index.html">National Laboratory of Pattern Recognition</a>,
+      <br><a href="http://www.ia.cas.cn">Institute of Automation, Chinese Academy of Sciences, Beijing, China</a></p>
       <p><b></b></p>
       <p><br><b>Email: lujinliang2019[at]ia.ac.cn</b>
          <br><b>Add:</b> Floor 7, Institute of Automation, Chinese Academy of Sciences, 95 Zhongguancun East Road, Haidian District, Beijing</p>
@@ -26,7 +26,7 @@ permalink: /about/
 
 ## About me
 
-Hi, I am a master student in the Institute of Automation, Chinese Academy of Sciences. I receive my bachelor degree at the college of computer science and technology at Beijing Jiaotong University. Now, I am advised by [Prof. Jiajun Zhang](http://www.nlpr.ia.ac.cn/cip/jjzhang.htm) and  affiliated in [Chinese Information Processing Group (CIP)](http://www.nlpr.ia.ac.cn/cip/introduction.htm).
+Hi, I am a master student in the [Institute of Automation, Chinese Academy of Sciences](http://www.ia.cas.cn). I receive my bachelor degree at the college of computer science and technology at Beijing Jiaotong University. Now, I am advised by [Prof. Jiajun Zhang](http://www.nlpr.ia.ac.cn/cip/jjzhang.htm) and  affiliated in **[Chinese Information Processing Group (CIP)]**(http://www.nlpr.ia.ac.cn/cip/introduction.htm).
 
 My research interests lie within the intersection of Natural Language Processing, Deep Learning, Machine Translation and Multilingual Text Analysis.
 
