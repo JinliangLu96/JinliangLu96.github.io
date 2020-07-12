@@ -14,7 +14,9 @@ permalink: /about/
       <br>Institute of Automation, Chinese Academy of Sciences, Beijing, China</p>
       <p><b></b></p>
       <p><br><b>Email: lujinliang2019[at]ia.ac.cn</b>
-         <br>Floor 7, Institute of Automation, Chinese Academy of Sciences, 95 Zhongguancun East Road, Haidian District, Beijing</p>
+         <br>Add: Floor 7, Institute of Automation, Chinese Academy of Sciences, 95 Zhongguancun East Road, Haidian District, Beijing</p>
+      <p><b></b></p>
+      <p><b>Research Interest: Natural Language Processing, Machine Translation, Multilingual Text Analysis</b></p>
     </td>
     <td width="25%">
       <img src="/assets/Jinliang.jpg" width="100%">
