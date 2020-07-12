@@ -43,11 +43,13 @@ Hi, I am a master student in the [**Institute of Automation, Chinese Academy of 
 ### QE - Reading List
 
 **[Description]** A few month ago, I sort out a few papers about Quality Estimation in Machine Translation. However, I am not a diligent man. Therefore, the reading list may not as cutting-edge as you expect. I will update it when I am free.
+
 **[Link]** [https://github.com/JinliangLu96/QE-Readinglist](https://github.com/JinliangLu96/QE-Readinglist)
 
 ### SOTA - MT
 
 **[Description]** This project is launched by my advisor Jiajun Zhang and maintained by the CIP-MT team members, which records advanced technologies in Machine Translation.
+
 **[Link]** [https://github.com/JinliangLu96/SOTA-MT](https://github.com/JinliangLu96/SOTA-MT)
 
 **[To be Continued]**
