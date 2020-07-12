@@ -11,7 +11,7 @@ permalink: /about/
       <p><br><b>Master Student</b>
       <br><a href="http://www.nlpr.ia.ac.cn/cip/introduction.htm">Research Group of Natural Language Processing,</a>
       <br><a href="http://www.nlpr.ia.ac.cn/cn/index.html">National Laboratory of Pattern Recognition</a>,
-      <br><a href="http://www.ia.cas.cn">Institute of Automation, Chinese Academy of Sciences, Beijing, China</a></p>
+      <br><a href="http://www.ia.cas.cn">Institute of Automation, Chinese Academy of Sciences,</a> Beijing, China</p>
       <p><b></b></p>
       <p><br><b>Email: lujinliang2019[at]ia.ac.cn</b>
          <br><b>Add:</b> Floor 7, Institute of Automation, Chinese Academy of Sciences, 95 Zhongguancun East Road, Haidian District, Beijing</p>
