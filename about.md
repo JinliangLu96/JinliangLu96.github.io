@@ -5,19 +5,18 @@ permalink: /about/
 ---
 # **Jinliang Lu - 陆金梁**
 
-%<img src="/assets/Jinliang.jpg" title="Profile Picture" class="profile">
-
 <table border="0">
   <tr>
     <td width="75%">
-      <h1>陆金梁</h1>
-      <p><b>硕士研究生</b></p>
-      <p><b>××大学××学院</b></p>
-      <p><b>邮箱：1234567789@qq.com</b></p>
-      <p><b>地址：××市××区××路××号××大学，××楼，邮编×××</b></p>
+      <p><b>Master Student</b></p>
+      <p><b>Research Group of Natural Language Processing,</b></p>
+      <p><b>National Laboratory of Pattern Recognition,</b></p>
+      <p><b>Institute of Automation, Chinese Academy of Sciences, Beijing, China</b></p>
+      <p><b></b></p>
+      <p><b>Email: lujinliang2019[at]ia.ac.cn</b></p>
     </td>
     <td width="25%">
-      <img src="/assets/Jinliang.jpg" width="100%">      % 插入证件照代码
+      <img src="/assets/Jinliang.jpg" width="100%">
     </td>
   </tr>
 </table>
