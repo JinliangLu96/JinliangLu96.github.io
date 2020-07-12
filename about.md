@@ -8,9 +8,8 @@ permalink: /about/
 <table border="0">
   <tr>
     <td width="75%">
-      <p><b>Master Student</b></p>
-      <p><b></b></p>
-      <p><br>Research Group of Natural Language Processing,
+      <p><br><b>Master Student</b>
+      <br>Research Group of Natural Language Processing,
       <br>National Laboratory of Pattern Recognition,
       <br>Institute of Automation, Chinese Academy of Sciences, Beijing, China</p>
       <p><b></b></p>
