@@ -26,7 +26,7 @@ permalink: /about/
 
 ## About me
 
-Hi, I am a master student in the [Institute of Automation, Chinese Academy of Sciences](http://www.ia.cas.cn). I receive my bachelor degree at the college of computer science and technology at Beijing Jiaotong University. Now, I am advised by [Prof. Jiajun Zhang](http://www.nlpr.ia.ac.cn/cip/jjzhang.htm) and  affiliated in [**Chinese Information Processing Group (CIP)](http://www.nlpr.ia.ac.cn/cip/introduction.htm).
+Hi, I am a master student in the [Institute of Automation, Chinese Academy of Sciences](http://www.ia.cas.cn). I receive my bachelor degree at the college of computer science and technology at Beijing Jiaotong University. Now, I am advised by [Prof. Jiajun Zhang](http://www.nlpr.ia.ac.cn/cip/jjzhang.htm) and  affiliated in [**Chinese Information Processing Group (CIP)**](http://www.nlpr.ia.ac.cn/cip/introduction.htm).
 
 My research interests lie within the intersection of Natural Language Processing, Deep Learning, Machine Translation and Multilingual Text Analysis.
 
