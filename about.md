@@ -7,7 +7,7 @@ permalink: /about/
 
 <table border="0">
   <tr>
-    <td width="75%">
+    <td width="65%">
       <p><br><b>Master Student</b>
       <br>Research Group of Natural Language Processing,
       <br>National Laboratory of Pattern Recognition,
@@ -18,7 +18,7 @@ permalink: /about/
       <p><b></b></p>
       <p><b>Research Interest:</b> Natural Language Processing, Machine Translation, Multilingual Text Analysis</p>
     </td>
-    <td width="25%">
+    <td width="35%">
       <img src="/assets/Jinliang.jpg" width="100%">
     </td>
   </tr>
