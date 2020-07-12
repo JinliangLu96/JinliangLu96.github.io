@@ -5,11 +5,26 @@ permalink: /about/
 ---
 # **Jinliang Lu - 陆金梁**
 
-<img src="/assets/Jinliang.jpg" title="Profile Picture" class="profile">
+%<img src="/assets/Jinliang.jpg" title="Profile Picture" class="profile">
+
+<table border="0">
+  <tr>
+    <td width="75%">
+      <h1>陆金梁</h1>
+      <p><b>硕士研究生</b></p>
+      <p><b>××大学××学院</b></p>
+      <p><b>邮箱：1234567789@qq.com</b></p>
+      <p><b>地址：××市××区××路××号××大学，××楼，邮编×××</b></p>
+    </td>
+    <td width="25%">
+      <img src="/assets/Jinliang.jpg" width="100%">      % 插入证件照代码
+    </td>
+  </tr>
+</table>
 
 ## About me
 
-I am a one-year master in the Institute of Automation, Chinese Academy of Science, Complete my bachelor's degree in the college of computer science and technology at Beijing Jiaotong University. My advisor now is [Prof. Jiajun Zhang](http://www.nlpr.ia.ac.cn/cip/jjzhang.htm). The research group I am in is [Chinese Information Processing Group (CIP)](http://www.nlpr.ia.ac.cn/cip/introduction.htm).
+I am a master student at the Institute of Automation, Chinese Academy of Sciences. My bachelor's degree at the college of computer science and technology at Beijing Jiaotong University. My advisor now is [Prof. Jiajun Zhang](http://www.nlpr.ia.ac.cn/cip/jjzhang.htm). The research group I am in is [Chinese Information Processing Group (CIP)](http://www.nlpr.ia.ac.cn/cip/introduction.htm).
 
 My research interests lie within the intersection of Natural Language Processing, Deep Learning, Machine Translation and Multilingual Text Analysis.
 
