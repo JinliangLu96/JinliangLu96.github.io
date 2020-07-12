@@ -9,7 +9,7 @@ permalink: /about/
   <tr>
     <td width="65%">
       <p><br><b>Master Student</b>
-      <br>Research Group of Natural Language Processing,
+      <br><a herf="http://www.nlpr.ia.ac.cn/cip/introduction.htm">Research Group of Natural Language Processing,</a>
       <br>National Laboratory of Pattern Recognition,
       <br>Institute of Automation, Chinese Academy of Sciences, Beijing, China</p>
       <p><b></b></p>
@@ -26,7 +26,7 @@ permalink: /about/
 
 ## About me
 
-I am a master student at the Institute of Automation, Chinese Academy of Sciences. My bachelor's degree at the college of computer science and technology at Beijing Jiaotong University. My advisor now is [Prof. Jiajun Zhang](http://www.nlpr.ia.ac.cn/cip/jjzhang.htm). The research group I am in is [Chinese Information Processing Group (CIP)](http://www.nlpr.ia.ac.cn/cip/introduction.htm).
+Hi, I am a master student in the Institute of Automation, Chinese Academy of Sciences. I receive my bachelor degree at the college of computer science and technology at Beijing Jiaotong University. Now, I am advised by [Prof. Jiajun Zhang](http://www.nlpr.ia.ac.cn/cip/jjzhang.htm) and  affiliated in [Chinese Information Processing Group (CIP)](http://www.nlpr.ia.ac.cn/cip/introduction.htm).
 
 My research interests lie within the intersection of Natural Language Processing, Deep Learning, Machine Translation and Multilingual Text Analysis.
 
@@ -48,11 +48,12 @@ My research interests lie within the intersection of Natural Language Processing
 
 **[Description]** A few month ago, I sort out a few papers about Quality Estimation in Machine Translation. However, I am not a diligent man. Therefore, the reading list may not as cutting-edge as you expect. I will update it when I am free.
 
-**[To be Continued]** I will upload my work about evaluation of Machine Translation in a few days later.
+**[To be Continued]**
 
 ## Experiences
-**National Laboratory of Pattern Recognition, Chinese Information Processing Group**
+**Chinese Information Processing Group(CIP), National Laboratory of Pattern Recognition**
 
-*As intern student. Oct. 2018 - July. 2019*
+*Intern student: Oct. 2018 - July. 2019*
+*Master Student: Sept. 2019 - Now*
 
 * under the guidence of Prof. Jiajun Zhang
