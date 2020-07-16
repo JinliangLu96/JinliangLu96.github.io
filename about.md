@@ -50,7 +50,7 @@ Hi, I am a master student in the [**Institute of Automation, Chinese Academy of 
 
 **[Description]** This project is launched by my advisor Jiajun Zhang and maintained by the CIP-MT team members, which records advanced technologies in Machine Translation.
 
-**[Link]** [https://github.com/JinliangLu96/SOTA-MT](https://github.com/JinliangLu96/SOTA-MT)
+**[Link]** [https://github.com/ZNLP/SOTA-MT](https://github.com/ZNLP/SOTA-MT)
 
 **[To be Continued ... ]**
 
