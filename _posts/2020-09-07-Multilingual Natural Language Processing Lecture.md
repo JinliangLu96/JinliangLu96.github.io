@@ -33,7 +33,7 @@ languages based on English
 1. 460 languages in India
 2. lans in Africa
 
-##### Approaches to low-resource/multilingual NLP
+### Approaches to low-resource/multilingual NLP
 Manual curation or annotation is expensive
 
 **Approach**:
@@ -55,7 +55,7 @@ Manual curation or annotation is expensive
 * Typological similairy: explains commen properties or structural diversity
   [WALS](wals.info) - **Paper**:The World Atlas of Language Structures Online
 
-##### Automatic prediction of typological features
+### Automatic prediction of typological features
 1. *Morphosynatctic annotation projection* - project feature annotations from similar Languages
 2. *Unsupervised and semi-supervised feature propagation* - hierarchical typological clustering and majority value assignment / language-family based nearest neighbor projection/matrix completion
 3. *Supervised learning* - Logistic regression/determinant point process with neural features
@@ -64,13 +64,13 @@ Manual curation or annotation is expensive
 **Paper**:[Modeling language variation and universals: A survey on typological linguistics for natural language processing](https://arxiv.org/abs/1807.00914)
 **Code**: URIEL(lang2vec: pypi.org/project/lang2vec)
 
-##### Linguistic universals
+### Linguistic universals
 * all langs have vowels and consonants
 * all langs of the world also make a distinction between nouns and verbs
 
-##### Linguistic typology in NLP
+### Linguistic typology in NLP
 
-##### Open research problems
+### Open research problems
 * How to extract typological features automatically from existing multilingual resources
 * How to accurately predict typological knowledge while controlling the bias
 * how to incorporate linguistic typology into models
