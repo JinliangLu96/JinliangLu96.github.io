@@ -30,10 +30,13 @@ Hi, I am a master student in the [**Institute of Automation, Chinese Academy of 
 
 ## Publications
 
-### 2021
-1. Jinliang Lu and Jiajun Zhang. **Exploiting Curriculum Learning in Unsupervised Neural Machine Translation**. To appear in *EMNLP 2021-Findings*.
+### 2022
+1. Feihu Jin, Jinliang Lu, Jiajun Zhang, and Chengqing Zong. [**Instance-aware Prompt Learning for Language Understanding and Generation**](https://arxiv.org/pdf/2201.07126.pdf). *Arxiv*
 
-### 2020
+### 2021
+1. Jinliang Lu and Jiajun Zhang. [**Exploiting Curriculum Learning in Unsupervised Neural Machine Translation**](https://aclanthology.org/2021.findings-emnlp.79.pdf). *EMNLP 2021-Findings*.
+
+### 2021
 1. Yuan Yao, Qingxiu Dong, Jian Guan, Boxi Cao, Fanchao Qi, Jinliang Lu, Jinran Nie, Junwei Bao, Kun Zhou, Shuhuai Ren, Xiaozhi Wang, Xuancheng Huang, Zheni Zeng, Zile Zhou, Zhiyuan Liu, Erhong Yang, Zhifang Sui, Maosong Sun, Jiajun Zhang, Juanzi Li, Minlie Huang, Rui Yan, Xianpei Han, Xiaodong He, Xiaojun Wan, Xin Zhao, Xu Sun, and Yang Liu. 2021. **CUGE: A chinese language understanding and generation evaluation benchmark**. *Technical report*.
 
 ### 2019
