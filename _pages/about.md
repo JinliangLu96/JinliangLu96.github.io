@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Jinliang Lu"
 author_profile: true
 redirect_from: 
   - /about/
@@ -11,6 +11,7 @@ redirect_from:
 I am a 5-year PhD student at Institute of Automation, Chinese Academy of Sciences, under the guidance of Prof. [Jiajun Zhang](https://nlpr.ia.ac.cn/cip/jjzhang.htm). Before this, I obtained my Bachelor degree in Computer Science at Beijing Jiaotong University in June 2019. 
 
 **Email**: lujinliang2019@ia.ac.cn
+
 **Address**: Room 815 at Automation Building, No. 95 Zhongguancun East Road
 
 
