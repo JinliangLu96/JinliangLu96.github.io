@@ -5,10 +5,6 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">Google Scholar</a>.</div>
-{% endif %}
-
 {% include base_path %}
 
 ### 2024
@@ -25,7 +21,12 @@ author_profile: true
 
 ### 2021
 * **Jinliang Lu** and Jiajun Zhang. Exploiting Curriculum Learning in Unsupervised Neural Machine Translation. In *Findings of the Association for Computational Linguistics: EMNLP 2021*, Online, November 7-11, 2021, pp. 924–934.
+* Yuan Yao, Qingxiu Dong, Jian Guan, Boxi Cao, Zhengyan Zhang, Chaojun Xiao, Xiaozhi Wang, Fanchao Qi, Junwei Bao, Jinran Nie, Zheni Zeng, Yuxian Gu, Kun Zhou, Xuancheng Huang, Wenhao Li, Shuhuai Ren, **Jinliang Lu**, Chengqiang Xu, Huadong Wang, Guoyang Zeng, Zile Zhou, Jiajun Zhang, Juanzi Li, Minlie Huang, Rui Yan, Xiaodong He, Xiaojun Wan, Xin Zhao, Xu Sun, Yang Liu, Zhiyuan Liu, Xianpei Han, Erhong Yang, Zhifang Sui, Maosong Sun. Cuge: A chinese language understanding and generation evaluation benchmark. *arXiv preprint*. arXiv:2112.13610
 
 ### 2019
 * **Jinliang Lu** and Jiajun Zhang. Select the Best Translation from Different Systems without Reference. In *Proceedings of Natural Language Processing and Chinese Computing: 8th CCF International Conference (NLPCC 2019)*, Dunhuang, China, October 9–14, 2019, pp.355-366.
 * **陆金梁**，张家俊。基于多语言预训练语言模型的译文质量估计方法。厦门大学学报：自然科学版59(2): 151-158.
+
+{% if site.author.googlescholar %}
+  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">Google Scholar</a>.</div>
+{% endif %}
