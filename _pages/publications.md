@@ -21,3 +21,11 @@ author_profile: true
 * **Jinliang Lu**, Feihu Jin and Jiajun Zhang.Adapter Tuning With Task-Aware Attention Mechanism. In *Proceedings of 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2023)*, Rhodes Island, Greece, June 2-10, 2023, pp.1-5.
 * Feihu Jin, **Jinliang Lu** and Jiajun Zhang. Unified Prompt Learning Makes Pre-Trained Language Models Better Few-shot Learners. In *Proceedings of 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2023)*, Rhodes Island, Greece, June 2-10, 2023, pp.1-5.
 * Feihu Jin, **Jinliang Lu**, Jiajun Zhang, Chengqing Zong.Instance-Aware Prompt Learning for Language Understanding and Generation. *ACM Transactions on Asian and Low-Resource Language Information Processing (TALLIP)*, 2023, 22:1-18.
+* Chen Wang, Minpeng Liao, Zhongqiang Huang, **Jinliang Lu**, Junhong Wu, Yuchen Liu, Chengqing Zong, Jiajun Zhang. BLSP: Bootstrapping Language-Speech Pre-Training via Behavior Alignment of Continuation Writing. *arXiv preprint*. arXiv: 2309.00916.
+
+### 2021
+* **Jinliang Lu** and Jiajun Zhang. Exploiting Curriculum Learning in Unsupervised Neural Machine Translation. In *Findings of the Association for Computational Linguistics: EMNLP 2021*, Online, November 7-11, 2021, pp. 924–934.
+
+### 2019
+* **Jinliang Lu** and Jiajun Zhang. Select the Best Translation from Different Systems without Reference. In *Proceedings of Natural Language Processing and Chinese Computing: 8th CCF International Conference (NLPCC 2019)*, Dunhuang, China, October 9–14, 2019, pp.355-366.
+* **陆金梁**，张家俊。基于多语言预训练语言模型的译文质量估计方法。厦门大学学报：自然科学版59(2): 151-158.
