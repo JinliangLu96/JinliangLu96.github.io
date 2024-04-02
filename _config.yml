@@ -26,9 +26,9 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "lujinliang2019@ia.ac.cn"
   location         : "Beijing, China"
-  employer         : "Institute of Automation, \n Chinese Academy of Sciences"
+  employer         : "Institute of Automation, CAS"
   uri              : # URL
-  email            : "lujinliang2019@ia.ac.cn" 
+  email            : # EMAIL
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
