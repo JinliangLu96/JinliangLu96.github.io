@@ -1,7 +1,7 @@
 ---
 title: "Improving Unsupervised Neural Machine Translation via Training Data Self-Correction"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
+permalink: 
 date: 2023.05
 venue: 'In Proceedings of 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024), Accepted.'
 paperurl: ''
