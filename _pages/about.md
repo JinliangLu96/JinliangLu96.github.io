@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Jinliang Lu"
+title: "JinLiang Lu"
 author_profile: true
 redirect_from: 
   - /about/
