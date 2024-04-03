@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About Me"
+title: "Jinliang Lu"
 author_profile: true
 redirect_from: 
   - /about/
@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 
-
+### About Me
 
 I am a 5-year PhD student at Institute of Automation, Chinese Academy of Sciences, under the guidance of Prof. [Jiajun Zhang](https://nlpr.ia.ac.cn/cip/jjzhang.htm). Before this, I obtained my Bachelor degree in Computer Science at Beijing Jiaotong University in June 2019. 
 
