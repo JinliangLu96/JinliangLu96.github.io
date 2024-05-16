@@ -9,7 +9,8 @@ author_profile: true
 
 ### 2024
 * **Jinliang Lu** and Jiajun Zhang. Improving Unsupervised Neural Machine Translation via Training Data Self-Correction. In *Proceedings of 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)*, Accepted.
-* Yangyifan Xu †, **Jinliang Lu** † and Jiajun Zhang. Bridging the Gap between Different Vocabularies for LLM Ensemble. In *Proceedings of 2024 Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL 2024)*. Accepted.
+* Yangyifan Xu †, **Jinliang Lu** † (Equal Contribution) and Jiajun Zhang. Bridging the Gap between Different Vocabularies for LLM Ensemble. In *Proceedings of 2024 Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL 2024)*. Accepted.
+* Chong Li, Wen Yang, Jiajun Zhang, **Jinliang Lu**, Shaonan Wang, Chengqing Zong. X-Instruction: Aligning Language Model in Low-resource Languages with Self-curated Cross-lingual Instructions. Accepted by Findings of ACL 2024.
 
 ### 2023
 * **Jinliang Lu**, Yu Lu and Jiajun Zhang. Take a Closer Look at Multilinguality! Improve Multilingual Pre-Training Using Monolingual Corpora Only. In *Findings of the Association for Computational Linguistics: EMNLP 2023*, Singapore, December 6-10, 2023, pp.2891–2907.
